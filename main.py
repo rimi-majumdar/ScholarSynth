@@ -36,7 +36,8 @@ for sess in past_sessions:
             db.delete(sess)
             db.commit()
             st.success(f"Deleted session {sess.document_name}")
-            st.experimental_rerun()
+           st.rerun()
+
 
 # ✅ File Upload
 uploaded_file = st.file_uploader("Upload PDF or TXT", type=["pdf", "txt"])
