@@ -32,13 +32,12 @@ for sess in past_sessions:
         for qa in sess.questions:
             st.write(f"Q: {qa.question}")
             st.caption(f"A: {qa.answer[:100]}...")
-                if st.button(f"🗑️ Delete", key=f"delete_{sess.id}"):
-                   db.delete(sess)
-                   db.commit()
-                   st.success(f"Deleted session {sess.document_name}")
-                   st.rerun()
 
-
+        if st.button(f"🗑️ Delete", key=f"delete_{sess.id}"):
+            db.delete(sess)
+            db.commit()
+            st.success(f"Deleted session {sess.document_name}")
+            st.rerun()
 
 # ✅ File Upload
 uploaded_file = st.file_uploader("Upload PDF or TXT", type=["pdf", "txt"])
