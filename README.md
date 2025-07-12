@@ -138,4 +138,4 @@ Built by [your-name] as part of a GenAI internship assignment to demonstrate:
 ## 📬 Feedback / Contributions
 
 Feel free to fork this repo or suggest features via Issues or Pull Requests.  
-For any feedback or demo requests, contact [your-email@example.com].
+
