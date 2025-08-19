@@ -124,15 +124,6 @@ address = "0.0.0.0"
 ```
 
 ---
-
-## 🧠 Credits
-
-Built by [your-name] as part of a GenAI internship assignment to demonstrate:
-- Document-aware summarization
-- Contextual Q&A from source files
-- Evaluation of user input using LLMs
-- Persistent memory with per-user document history
-
 ---
 
 ## 📬 Feedback / Contributions
